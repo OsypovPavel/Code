@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Osypov Pavel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-media.css">
+	<style media="screen">
+		#load-progres{
+			height: 100%;
+			width: 100%;
+			position: fixed;
+			left: 0;
+			top: 0;
+			z-index: 1000;
+			background-color: white;
+		}
+        
+        .tcon-loader--spinner360 {
+            border-radius: 80%;
+            display: block;
+            height: 40px;
+            width: 40px;
+            position: relative;
+            top: 50%;
+            margin: auto;
+            animation: tcon-spin360 0.675s linear infinite forwards;
+            background: lightgray; 
+        }
+        .tcon-loader--spinner360:before, .tcon-loader--spinner360:after {
+        content: "";
+        display: block;
+        position: absolute; }
+        .tcon-loader--spinner360:before {
+        border-radius: 0 90px 90px 0;
+        height: 40px;
+        width: 50%;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        background: black;
+        background-image: linear-gradient(lightgray, black); }
+        .tcon-loader--spinner360:after {
+        border-radius: 80%;
+        height: 30px;
+        width: 30px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        background: white; }
+        @keyframes tcon-spin360 {
+        to {
+        transform: rotate(360deg); } }
+        .tcon-visuallyhidden {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px; }
+        .tcon-visuallyhidden:active, .tcon-visuallyhidden:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto; }
+
+	</style>
+	<script>
+			function allLoaded(){
+					jQuery('#load-progres').fadeOut(500);
+                    $('html, body').animate({ scrollTop: $("header").offset().top }, 1);
+			}
+	</script>
+</head>
+<body onload="allLoaded()">
+    <div id="load-progres">
+        <span class="tcon-loader--spinner360" aria-label="loading">
+        <span class="tcon-visuallyhidden">loading</span>
+        </span>
+	</div>
+	
+	<div class="wrapper">
+	    <header>
+	        <h1>Osypov Pavel</h1>
+	        <nav>
+	            <ul>
+	                <li><a href="#home">Home</a></li>
+	                <li><a href="#about">About Me</a></li>
+	                <li><a href="#getIn">Get In Touch</a></li>
+	            </ul>
+	        </nav>
+	    </header>
+	    
+	    <main>
+	        <section id="home" class="home tabContent">
+                <h1>Please click on the image to view the page <i class="fa fa-hand-pointer-o" aria-hidden="true"></i></h1>
+	            <div class="fourBlock">
+	                <div class="movingBlock animated bounceInDown">
+	                    <a href="portfolio/Moving.com/index.html"><img src="img/Moving.png" alt="Moving"></a>
+	                </div>
+	                
+	                <div class="intersonoAndRadioBlock">
+	                    <div class="intersono animated bounceInLeft">
+	                        <a href="portfolio/Egg-donor.com/index.html"><img src="img/Intersono.png" alt="Intersono"></a>
+	                    </div>
+	                    <div class="radio animated bounceIn">
+	                        <a href="portfolio/iRadio/index.html"><img src="img/IRadio.png" alt="Radio"></a>
+	                    </div>
+	                </div>
+	                
+	            </div>
+	            <div class="longBlock animated bounceInRight">
+	                <a href="portfolio/AutoStockParts/index.html"><img src="img/AutoStock.PNG" alt="AutoStock"></a>
+	            </div>
+	            
+	            <div class="bottomBlock animated bounceInUp">
+	                <div class="landing"><a href="portfolio/landing.ru/index.html"><img src="img/Landing.png" alt="Landing"></a></div>
+	                <div class="steve"><a href="portfolio/Sultan.org/index.html"><img src="img/Steave.png" alt="Steve"></a></div>
+	            </div>
+	        </section>
+	        <section id="about" class="about tabContent">
+	            <img src="img/foto.png" alt="Foto">
+	            <h2>About Me</h2>
+	            <p>At the moment I'm at the outset of my front-end career. I'm a self-taught developer and have more than one year of experience in front-end development. During this time I've learnt to create beautiful and user-friendly websites. Although I don't have much experience, I have great enthusiasm and strong motivation, which is no less important for professional growth in any field. I have a clear understanding of how great IT industry is and I believe it will be more powerful in the future. So I'm ready for efficient work with like-minded people.</p>
+	        </section>
+	        <section id="getIn" class="getIn tabContent">
+	            <img src="img/fly.png" alt="fly">
+	            <h2>Get In Touch</h2>
+	            <p>
+	            <i class="fa fa-envelope-square"></i> osypovpavel@gmail.com <br><span>|</span> <i class="fa fa-phone-square"></i> +38 (063) 93 61 961
+	            </p>
+	            <p class="skype"><i class="fa fa-skype"></i> osypovpavel</p>
+	            <form action="#">
+	                <input type="text" placeholder="Name" required autofocus>
+	                <input type="text" placeholder="Telephone" required maxlength="15">
+	                <input type="email" placeholder="Email" required>
+	                <textarea type="text" placeholder="Comment" rows="7"></textarea>
+	                <input type="submit">
+	            </form>
+	            
+	        </section>
+	    </main>
+	    
+	    <footer>
+	        <a href="https://www.facebook.com/osypovp"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+	        <a href="https://www.linkedin.com/in/osypovpavel/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+	        <a href="https://github.com/OsypovPavel/site-portfolio"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+	        <p>&copy; 2017 Osypov Pavel web Developer</p>
+	    </footer>
+	</div>
+	
+	<script src="script/jquery-3.1.1.min.js"></script>
+	<script src="script/main.js"></script>
+	<script>
+    (function (root, factory) {
+  if (typeof define === 'function' && define.amd) {
+    // AMD module
+    define(factory);
+  } else if (typeof exports === 'object') {
+    // CommonJS-like environment (i.e. Node)
+    module.exports = factory();
+  } else {
+    // Browser global
+    root.transformicons = factory();
+  }
+}(this || window, function () {
+
+  // ####################
+  // MODULE TRANSFORMICON
+  // ####################
+  'use strict';
+
+  var
+    tcon = {}, // static class
+    _transformClass = 'tcon-transform',
+
+    // const
+    DEFAULT_EVENTS = {
+      transform : ['click'],
+      revert : ['click']
+    };
+
+  // ##############
+  // private methods
+  // ##############
+
+  /**
+  * Normalize a selector string, a single DOM element or an array of elements into an array of DOM elements.
+  * @private
+  *
+  * @param {(string|element|array)} elements - Selector, DOM element or Array of DOM elements
+  * @returns {array} Array of DOM elements
+  */
+  var getElementList = function (elements) {
+    if (typeof elements === 'string') {
+      return Array.prototype.slice.call(document.querySelectorAll(elements));
+    } else if (typeof elements === 'undefined' || elements instanceof Array) {
+      return elements;
+    } else {
+      return [elements];
+    }
+  };
+
+  /**
+  * Normalize a string with eventnames separated by spaces or an array of eventnames into an array of eventnames.
+  * @private
+  *
+  * @param {(string|array)} elements - String with eventnames separated by spaces or array of eventnames
+  * @returns {array} Array of eventnames
+  */
+  var getEventList = function (events) {
+    if (typeof events === 'string') {
+      return events.toLowerCase().split(' ');
+    } else {
+      return events;
+    }
+  };
+
+  /**
+  * Attach or remove transformicon events to one or more elements.
+  * @private
+  *
+  * @param {(string|element|array)} elements - Selector, DOM element or Array of DOM elements to be toggled
+  * @param {object} [events] - An Object containing one or more special event definitions
+  * @param {boolean} [remove=false] - Defines wether the listeners should be added (default) or removed.
+  */
+  var setListeners = function (elements, events, remove) {
+    var
+      method = (remove ? 'remove' : 'add') + 'EventListener',
+      elementList = getElementList(elements),
+      currentElement = elementList.length,
+      eventLists = {};
+
+    // get events or use defaults
+    for (var prop in DEFAULT_EVENTS) {
+      eventLists[prop] = (events && events[prop]) ? getEventList(events[prop]) : DEFAULT_EVENTS[prop];
+    }
+    
+    // add or remove all events for all occasions to all elements
+    while(currentElement--) {
+      for (var occasion in eventLists) {
+        var currentEvent = eventLists[occasion].length;
+        while(currentEvent--) {
+          elementList[currentElement][method](eventLists[occasion][currentEvent], handleEvent);
+        }
+      }
+    }
+  };
+
+  /**
+  * Event handler for transform events.
+  * @private
+  *
+  * @param {object} event - event object
+  */
+  var handleEvent = function (event) {
+    tcon.toggle(event.currentTarget);
+  };
+
+  // ##############
+  // public methods
+  // ##############
+
+  /**
+  * Add transformicon behavior to one or more elements.
+  * @public
+  *
+  * @param {(string|element|array)} elements - Selector, DOM element or Array of DOM elements to be toggled
+  * @param {object} [events] - An Object containing one or more special event definitions
+  * @param {(string|array)} [events.transform] - One or more events that trigger the transform. Can be an Array or string with events seperated by space.
+  * @param {(string|array)} [events.revert] - One or more events that trigger the reversion. Can be an Array or string with events seperated by space.
+  * @returns {transformicon} transformicon instance for chaining
+  */
+  tcon.add = function (elements, events) {
+    setListeners(elements, events);
+    return tcon;
+  };
+
+  /**
+  * Remove transformicon behavior from one or more elements.
+  * @public
+  *
+  * @param {(string|element|array)} elements - Selector, DOM element or Array of DOM elements to be toggled
+  * @param {object} [events] - An Object containing one or more special event definitions
+  * @param {(string|array)} [events.transform] - One or more events that trigger the transform. Can be an Array or string with events seperated by space.
+  * @param {(string|array)} [events.revert] - One or more events that trigger the reversion. Can be an Array or string with events seperated by space.
+  * @returns {transformicon} transformicon instance for chaining
+  */
+  tcon.remove = function (elements, events) {
+    setListeners(elements, events, true);
+    return tcon;
+  };
+
+  /**
+  * Put one or more elements in the transformed state.
+  * @public
+  *
+  * @param {(string|element|array)} elements - Selector, DOM element or Array of DOM elements to be transformed
+  * @returns {transformicon} transformicon instance for chaining
+  */
+  tcon.transform = function (elements) {
+    getElementList(elements).forEach(function(element) {
+      element.classList.add(_transformClass);
+    });
+    return tcon;
+  };
+
+  /**
+  * Revert one or more elements to the original state.
+  * @public
+  *
+  * @param {(string|element|array)} elements - Selector, DOM element or Array of DOM elements to be reverted
+  * @returns {transformicon} transformicon instance for chaining
+  */
+  tcon.revert = function (elements) {
+    getElementList(elements).forEach(function(element) {
+      element.classList.remove(_transformClass);
+    });
+    return tcon;
+  };
+  
+  /**
+  * Toggles one or more elements between transformed and original state.
+  * @public
+  *
+  * @param {(string|element|array)} elements - Selector, DOM element or Array of DOM elements to be toggled
+  * @returns {transformicon} transformicon instance for chaining
+  */
+  tcon.toggle = function (elements) {
+    getElementList(elements).forEach(function(element) {
+      tcon[element.classList.contains(_transformClass) ? 'revert' : 'transform'](element);
+    });
+    return tcon;
+  };
+
+  return tcon;
+}));
+    </script>
+</body>
+</html>

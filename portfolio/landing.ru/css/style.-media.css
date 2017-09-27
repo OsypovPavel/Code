@@ -1,0 +1,371 @@
+@media (max-width:1600px){
+     .tab_item3 span:last-child{
+     font-size: 16px;
+     line-height: normal;
+}
+}
+
+@media (max-width:1400px){
+     .tab_item3 span:first-child{
+     font-size: 22px;
+          margin-bottom: 10px;
+}
+     .tab_item3 span:first-child + span{
+     height: 120px;
+     width: 120px;
+     margin-right: 20px;
+     margin-bottom: 20px;
+}
+     
+}
+
+
+@media (max-width:1380px){
+     .tab_item2 p{
+          font-size: 23px;
+          line-height: normal;
+     }
+}
+
+
+@media (max-width:1265px){
+     .tab_item3 span:last-child{
+          font-size: 15px;
+          letter-spacing: normal;
+}
+     
+}
+
+
+
+
+@media (max-width:1200px){
+     .tab_item2 p{
+          font-size: 20px;   
+     }
+     
+}
+
+@media (max-width:1120px){
+     .img_reklama, .block_info_link, .ipad_info{
+          width: 100%;
+          }
+     .left_content_price, .right_content_price{
+          float: none;
+          margin-left: auto;
+          margin-right: auto;
+     }
+     .caption_price{
+          font-size: 30px;
+     }
+     .content_price{
+          width: 100%;
+     }
+     .footer{
+          width: 100%;
+          padding: 0 25px;
+          display: block;
+     }
+}
+
+
+@media (max-width:1070px){
+     .tab_item2 span{
+     width: 150px;
+     height: 150px;
+     margin: 15px;
+     
+}
+     .tab_item3{
+          overflow-y:scroll;
+          overflow-x: hidden;
+     }
+     .ipad_caption{
+          font-size: 40px;
+     }
+}
+
+
+@media (max-width:950px){
+     .tab_item2 span{
+     width: 120px;
+     height: 120px;
+     margin: 10px;
+     
+}
+     .tab_item2{
+     padding: 0 50px;
+}
+     .text_left,.text_right{
+          font-size: 18px;
+     }
+     .caption_price{
+          font-size: 25px;
+     }
+     .left_content_price,.right_content_price{
+          width: 500px;
+     }
+     .phone,.good_info,.social_icon{
+          float: none;
+          display: table;
+          margin: auto;
+          
+     }
+     .social_icon{
+          margin-bottom: 15px;
+     }
+     .footer{
+          text-align: center;
+          
+     }
+     .good_info p:first-child +p,.good_info p:first-child +p+p{
+          width: 100%;
+     }
+     .good_info p:first-child{
+          margin-bottom: 10px;
+     }
+}
+
+
+@media (max-width:820px){
+     .text_left,.text_right{
+          font-size: 16px;
+          
+     }
+     .ipad_caption{
+          font-size: 30px;
+     }
+}
+
+
+@media (max-width:720px){
+     
+     .block_info_link{
+          padding: 15px;
+     }
+     
+     .text_left div p:first-child,.text_right div p:first-child{
+          margin-top: 10px;
+          margin-bottom: 0;
+     }
+     .text_left div:first-child p:first-child,.text_right div:first-child p:first-child{
+     margin-top: 0;
+}
+          
+}
+
+
+
+
+@media (max-width:700px){
+     .tab_item2{
+          padding: 0 20px;
+}
+     
+     .tab_item2 span{
+     width: 100px;
+     height: 100px;
+     margin: 15px;
+}
+     .tab_item2 p{
+          font-size: 18px;
+     }
+     
+}
+
+
+
+
+@media (max-width:685px){
+     .txt_2 span:first-child{
+     font: bold 80px Arial;
+}
+     #text_result p:first-child{
+     font-size: 35px;
+}
+     #text_result p:last-child{
+     font-size: 16px;
+}
+}
+
+@media (max-width:660px){
+   .text_left,.text_right{
+          font-size: 14px;
+          
+     }  
+     .caption_price{
+          width: 90%;
+     }
+}
+
+
+@media (max-width:610px){
+     .txt_2 span:first-child{
+     font: bold 50px Arial;
+     display: block;
+}
+     .txt_2 span:last-child{
+     font: bold 30px Arial;
+}
+     .tabs{
+          padding-left: 5%;
+          padding-top: 20px;
+     }
+     .tab_item2 span{
+     width: 80px;
+     height: 80px;
+     margin: 10px;
+}
+     .tab_item3{
+          padding-right: 0;
+          padding-left: 15px;
+          padding-top: 15px;
+          border-top: 3px solid white;
+     }
+     .caption_price{
+          font-size: 20px;
+          padding: 25px 0;
+     }
+     .price_landing strong{
+          font-size: 100px;
+     }
+     .price_landing{
+          font-size: 20px;
+          font-weight: bold;
+     }
+}
+
+@media (max-width:570px){
+     .ipad_img{
+          clear: both;
+          width: 60%;
+          margin: 30px 23% 0 23%;
+     }
+     .text_right{
+          width: 45%;
+     }
+     .text_left{
+          width: 45%;
+          padding-left: 5%;
+     }
+     
+}
+
+@media (max-width:530px){
+     .txt_2 span:last-child{
+     font: bold 20px Arial;
+}
+     .txt_3 span:first-child{
+          font-size: 20px;
+     }
+     .txt_3 span:last-child{
+          font-size: 20px;
+     }
+     .txt_3 span:last-child i{
+          display: none;
+     }
+     .tabs{
+          padding-left: 5%;
+          
+     }
+     .tab{
+          font-size: 16px;
+          margin-right: 15px;
+     }
+     .tab_item2 p{
+          font-size: 16px;
+     }
+     .img_reklama{
+          margin-bottom: 50px;
+     }
+     .block_info_link div:first-child{
+          width: 40%;
+          font-size: 14px;
+}
+     .block_info_link div:last-child{
+          float: right;
+     }
+     .left_content_price,.right_content_price{
+          width: 100%;
+     }
+     .left_content_price p{
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+     }
+     .left_content_price button, .price_landing{
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+     }
+     .right_content_price ul:last-child,.right_content_price ul:first-child, .right_content_price p{
+          width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 10px;
+     }
+     .right_content_price ul:first-child li i{
+          margin-right: 20px;
+     }
+}
+
+@media (max-width:470px){
+     .tab_item2 span{
+          height: 50px;
+          width: 50px;
+}
+     
+     .tab_item2 p{
+          font-size: 18px;
+     }
+     .tab_item2{
+          
+     }
+     #text_result p:first-child{
+     font-size: 25px;
+}
+     .ipad_img{
+          width: 100%;
+          margin: 20px 2.2% 0 2.2%;
+     }
+     .right_content_price ul:first-child li{
+         font-size: 15px;
+          padding-right: 10px;
+     }
+     .right_content_price p{
+          font-size: 16px;
+     }
+     .right_content_price ul:last-child li{
+         font-size: 15px;
+     }
+     
+}
+     
+@media (max-width:400px)  {
+     .price_landing strong{
+          font-size: 60px;
+     }
+     .phone p:first-child{
+          font-size: 30px;
+     }
+} 
+     
+
+
+@media (max-width:350px){
+     .txt_2 span:first-child{
+     font: bold 40px Arial;
+}
+     .tab_item2 span{
+     float: left;
+}
+     .ipad_img{
+          width: 100%;
+          margin: 20px 3% 0 3%;
+     }
+     .text_right div{
+          margin-right: 10px;
+     }
+     
+     
+}

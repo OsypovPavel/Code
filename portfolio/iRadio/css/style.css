@@ -1,0 +1,461 @@
+body,html{
+     margin: 0;
+     padding: 0;
+     font-family: Oswald;
+}
+/*=================================================*/
+/*======================Навигацыонный блок===========================*/
+.page-wraper,.nav-block,.top-menu{
+     width: 100%;
+}
+.nav-block{
+     padding:0;
+     background-image: url(../img/nav_menu_img.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: table;
+     -webkit-transition: .3s linear;
+     transition: .3s linear;
+     height: 600px;
+     border-bottom: 5px solid gold;
+}
+/*================Навигацыонное меню===========================*/
+.top-menu{
+     text-align: center;
+     display: table;
+     color: whitesmoke;
+     padding: 20px 50px;
+     box-sizing: border-box;
+}
+.logo{
+     float: left;
+     font: 2em 'Dancing Script';
+     cursor:pointer;
+}
+.top-menu ul{
+     float: right;
+     margin: 0;
+}
+.top-menu ul li{
+     list-style: none;
+     display: inline-block;
+     font-size: 1.4em;
+     margin-right: 30px;
+     cursor:pointer;
+     -webkit-transition: .3s linear;
+     transition: .3s linear;
+     text-transform: uppercase;
+}
+.top-menu ul li a{
+	color: whitesmoke;
+	text-decoration: none;
+}
+.top-menu ul li:last-child{
+     margin-right: 0;
+}
+.top-menu ul li:hover{
+     -webkit-transform: scale(1.3);transform: scale(1.3);
+     -webkit-transition: .2s linear;
+     transition: .2s linear;
+}
+.top-menu i{
+     float: right;
+     font-size: 1.5em;
+     padding-top: 10px;
+     display: none;
+     cursor: pointer;
+     transition: .3s linear;
+}
+.top-menu i:hover{
+     transition: .3s linear;
+     transform: scale(1.1);
+}
+/*======================Кнопка радио навигацыонного блока===========================*/
+.radio-block{
+     display: table;
+     margin: 100px auto;
+     text-align: center;
+     color: whitesmoke;
+     font-size: 1.8em;
+     letter-spacing: 2px;
+     -webkit-transition: 1s;
+          transition: 1s;
+}
+.radio-block p{
+-webkit-transition: .3s linear;
+     transition: .3s linear;
+     padding: 0 20px;
+     cursor: pointer;
+}
+.radio-block p:hover{
+     -webkit-transform: scale(1.1);transform: scale(1.1);
+     -webkit-transition: .3s linear;
+     transition: .3s linear;
+}
+/*Плеєр*/
+.play{
+     background-image: -webkit-linear-gradient(bottom,#E4C600,#FFDD00);
+     background-image: linear-gradient(bottom,#E4C600,#FFDD00);
+     color: black;
+     font: 1em Oswald;
+     width: 200px;
+     height: 50px;
+     border-radius: 10px;
+     border: 1px solid #C1A028;
+     -webkit-transition: .3s linear;
+     transition: .3s linear;
+     margin: 0 auto;
+}
+.pause{
+     display: none;
+     background-image: -webkit-linear-gradient(bottom,#E4C600,#FFDD00);
+     background-image: linear-gradient(bottom,#E4C600,#FFDD00);
+     color: black;
+     font: 1em Oswald;
+     width: 200px;
+     height: 50px;
+     border-radius: 10px;
+     border: 1px solid #C1A028;
+     -webkit-transition: .3s linear;
+     transition: .3s linear;
+     margin: 0 auto;
+}
+.radio-block button i{
+     font-size: 1.1em;
+     color: black;
+}
+.play:hover{
+     -webkit-transition: .3s linear;
+     transition: .3s linear;
+     background-image: -webkit-linear-gradient(bottom,#E4C600,#DBBE00);
+     background-image: linear-gradient(bottom,#E4C600,#DBBE00);
+     -webkit-transform: scale(1.1);transform: scale(1.1);
+}
+.pause:hover{
+     -webkit-transition: .3s linear;
+     transition: .3s linear;
+     background-image: -webkit-linear-gradient(bottom,#E4C600,#DBBE00);
+     background-image: linear-gradient(bottom,#E4C600,#DBBE00);
+     -webkit-transform: scale(1.1);transform: scale(1.1);
+}
+.play:focus{
+     outline: none;
+}
+.pause:focus{
+     outline: none;
+}
+/*======================Контент выбора радио===========================*/
+
+.galery-radio{
+     width: 100%;
+     display: table;
+     background-image: -webkit-linear-gradient(bottom,#DEDEDE,whitesmoke);
+     background-image: linear-gradient(bottom,#DEDEDE,whitesmoke);
+     text-align: center;
+     border-bottom: 5px solid gold;
+}
+.galery-radio h1{
+     text-align: center;
+     font: bold 2.5em Oswald;
+     margin: 0;
+     padding: 20px 20px;
+}
+.block-radio{
+     width: 300px;
+     display: inline-block;
+     margin: 2%;
+     border: 3px solid black;
+     cursor: pointer;
+}
+.block-radio p{
+     font: bold 1.5em Oswald;
+     margin: 0;
+     padding: 0;
+     border-top: 3px solid black;
+     background-color: whitesmoke;
+}
+.radio img{
+     position: relative;
+     top: 25%;
+}
+.radio{
+     background-color: rgba(0,0,0,0.5);
+     opacity: 0;
+     -webkit-transition: 1s;
+     transition: 1s;
+     height: 100%;
+}
+.radio:hover{
+     opacity: 1;
+     -webkit-transition: 1s;
+     transition: 1s;
+}
+.height-radio{
+     height: 300px;
+}
+.bg-radio1{
+     background-image:url(../img/Rock.png);
+}
+.bg-radio2{
+     background-image:url(../img/Rap.png);
+}
+.bg-radio3{
+     background-image:url(../img/HipHop.png);
+}
+.bg-radio4{
+     background-image:url(../img/Raggy.png);
+}
+.bg-radio5{
+     background-image:url(../img/Disco.png);
+}
+.bg-radio6{
+     background-image:url(../img/Progressive.png);
+}
+.bg-radio7{
+     background-image:url(../img/Indie.png);
+}
+.bg-radio8{
+     background-image:url(../img/Techno.png);
+}
+.bg-radio9{
+     background-image:url(../img/Dub.png);
+}
+.bg-radio10{
+     background-image:url(../img/Drum.png);
+}
+.bg-radio11{
+     background-image:url(../img/Classic.png);
+}
+.bg-radio12{
+     background-image:url(../img/Pop.png);
+}
+
+/*======================Контент новостей===========================*/
+.news-block{
+     background-color: white;
+     margin: 0;
+     padding: 0;
+     display: table;
+	 width: 100%;
+     color: #2d2d2d;
+	 border-bottom: 5px solid gold;
+}
+.news-block h1{
+     text-align: center;
+     font:2.5em Oswald;
+     color: #2d2d2d;
+}
+.news{
+     border: 1px solid #464646;
+     box-sizing: border-box;
+     padding: 20px;
+     background-color: whitesmoke;
+     border-radius: 15px;
+	 display: table;
+	 width: 1000px;
+	 margin: 20px auto;
+	box-sizing: border-box;
+	 box-shadow: 0 0 8px 1px gray;
+	 -webkit-transition: .8s linear;
+	 transition: .5s linear;
+	cursor: pointer;
+}
+.news-container{
+	
+}
+.news:hover{
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-transition: .8s linear;
+	transition: .5s linear;
+}
+.news h2{
+     color: black;
+	 margin: 0 auto;
+     
+}
+.news p{
+	font: 1.4em Oswald;
+	margin: 0;
+	padding-top: 20px;
+}
+.news img{
+	float: left;
+	height: 150px;
+	border: 3px solid black;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	-webkit-transition: .5s linear;
+	transition: .5s linear;
+	cursor: pointer;
+}
+.news img:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: .5s linear;
+	transition: .5s linear;
+}
+.news button{
+	float: right;
+	border-radius: 5px;
+	height: 30px;
+	background-color: lightgray;
+	outline: none;
+	font: 15px Oswald;
+	line-height: 25px;
+	box-shadow: 1px 1px 5px 1px dimgray;
+	cursor: pointer;
+	border-color: transparent;
+}
+.news button:hover{
+	background-color: #CACACA;
+}
+.news button:focus{
+	box-shadow: 0 0 5px 1px dimgray
+}
+.top-page-news-container{
+	border-top: 5px solid gold;
+	padding-top: 25px;
+	padding-left: 100px;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.bottom-page-news-container{
+	float: right;
+	margin-right: 5%;
+}
+.page-news{
+	list-style: none;
+	height: 25px;
+	width: 25px;
+	line-height: 25px;
+	display: inline-block;
+	border: 1px solid #2d2d2d;
+	text-align: center;
+	border-radius: 5px;
+	background-image: -webkit-radial-gradient( center ,whitesmoke,#D8D8D8);background-image: radial-gradient(at center,whitesmoke,#D8D8D8);
+	cursor: pointer;
+}
+.page-news:hover{
+	background-image: -webkit-radial-gradient( center ,#D4D4D4,#CECECE) !important;
+	background-image: radial-gradient( center,#D4D4D4,#CECECE) !important;
+}
+.active-page{
+	background-image: -webkit-linear-gradient(bottom,#747474,#979797) !important;
+     background-image: linear-gradient(0deg,#AFAFAF,#979797) !important;
+}
+.active-page:hover{
+	background-image: linear-gradient(0deg,#747474,#979797) !important;
+    background-image: -webkit-linear-gradient(bottom,#747474,#979797) !important;
+}
+.hidden{
+	display: none;
+}
+
+/*==================Футер==============================*/
+
+.footer{
+     display: table;
+     width: 100%;
+     background-image: -webkit-linear-gradient(bottom,#ACACAC,#F3F3F3);
+     background-image: linear-gradient(bottom,#ACACAC,#F3F3F3);
+     padding: 0;
+}
+.about_us{
+     float: left;
+     margin-left: 50px;
+     padding: 0;
+     width: 45%;
+}
+.about_us p{
+     font: 24px Oswald;
+}
+.partners{
+     float: right;
+     margin-left: 50px;
+     padding: 0;
+     width: 40%;
+}
+.partners img{
+     height: 50px;
+     margin-right: 15px;
+     margin-bottom: 15px;
+	 cursor: pointer;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+.partners img:hover{
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+.footer div h1{
+     font: 2em Oswald;
+     color: black;
+}
+.footer_info{
+     clear: both;
+	 display: table;
+	 width: 100%;
+     padding: 10px 10px 10px 55px;
+     margin: 0;
+     border-top:3px solid gold;
+     background-color: #0F0F0F;
+	box-sizing: border-box;
+}
+.footer_info p{
+     margin: 0;
+     padding: 0;
+     font:16px Oswald;
+     color: whitesmoke;
+	float: left;
+}
+.footer_social_icon i{
+	color: white;
+	float: right;
+	cursor: pointer;
+	font-size: 1.6em;
+	opacity: 0.8;
+	margin: 0 5px;
+}
+#fb:hover{
+	opacity: 1;
+	color: #4867AA;
+}
+#tw:hover{
+	opacity: 1;
+	color: #41ABE1;
+}
+#vk:hover{
+	opacity: 1;
+	color: #5B7AA8;
+}
+#gp:hover{
+	opacity: 1;
+	color: #DC483C;
+}
+#yt:hover{
+	opacity: 1;
+	color: #E42C2E;
+}
+#th:hover{
+	opacity: 1;
+	color: #6340A3;
+}
+
+
+
+
+
+
+
+
+@keyframes opacity0{
+     from{opacity: 0;}
+     to{opacity: 1;}
+}
+.opacity0{
+     animation-name: opacity0;
+     animation-duration: 2s;
+}

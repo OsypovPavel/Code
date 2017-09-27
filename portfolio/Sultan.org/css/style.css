@@ -1,0 +1,537 @@
+body{
+     margin: 0;
+     padding: 0;
+     min-width: 330px;
+}
+.container-fluid{
+     padding: 0;
+}
+/*=========Логотип сайта=======*/
+
+.logo{
+     margin: 50px 100px;
+}
+#top_of_logo span,font{
+     display:inline-block;
+     margin: 0;
+     padding: 0;
+     float: left;
+}
+
+#blue_square{
+     background-image: linear-gradient(180deg,#23AFA6,#1C8D85);
+     height: 25px;
+     width: 25px;
+     
+}
+#orange_square{
+     background-image: linear-gradient(180deg,#F6CD03,#B29502);
+     height: 25px;
+     width: 25px;
+}
+#red_square{
+     background-image: linear-gradient(180deg,#EC0030,#7E0019);
+     height: 25px;
+     width: 25px;
+}
+#link_of_logo{
+     margin: 0;
+     padding: 0;
+     font-family: cursive;
+     font-size: 30px;
+     font-weight: 700;
+     height: 25px;
+}
+#link_of_logo font{
+     margin-top: -10px;
+}
+
+#bottom_of_logo{
+    clear: both;
+     letter-spacing: 12px;
+     font: 500 18px Arial;
+     
+}
+
+/*=======Навигацыонное меню=========*/
+
+.nav_menu{
+     padding: 0 13.5% 0 15%;
+     border-top: 2px solid #C3C3C3;
+     border-bottom: 2px solid #C3C3C3;
+     display: table;
+     width: 100%;
+     background-color: #FAFAFA;
+     position: relative;
+}
+.nav_menu ul{
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     float: left;
+}
+.nav_menu ul li{
+     list-style: none;
+     text-align: center;
+     display: inline-block;
+     border-left: 2px solid #C3C3C3;
+     padding: 10px 10px;
+     float: left;
+     height: 100%;
+}
+#last_li{
+     border-right: 2px solid #C3C3C3;
+}
+.nav_menu ul li a{
+     text-decoration: none;
+     color: black;
+     font:40px bold Arial;
+}
+.nav_menu ul li:hover{
+     background-image: linear-gradient(180deg,#FCFCFC,#D8D8D8);
+}
+
+/*Форма*/
+form{
+     float: right;
+     margin-top: 40px;
+     width: 35%;
+}
+form input{
+     border: 2px solid #C3C3C3;
+     float: left;
+     height: 45px;
+     
+     
+}
+form input:first-child{
+     width: 85%;
+     padding-left: 15px;
+}
+form input:last-child{
+     border-left: none;
+     background-image: linear-gradient(0deg,#C3C3C3,#E9E9E9);
+     width: 15%;
+     font: 300 18px Tahoma;
+}
+form input:last-child:hover{
+     background-image: linear-gradient(0deg,#C3C3C3,#DFDFDF);
+}
+form input:first-child:focus{
+     box-shadow: 0 0 5px 1px #5DFFFF;
+     border: 1px solid #5DFFFF;
+     
+}
+
+
+
+/*==========Стив джобс и реклама============*/
+
+.content{
+     width: 90%;
+     margin: 50px auto 0 auto;
+     padding: 25px;
+     display: table;
+}
+.steve_block{
+     width: 65%;
+     float: left;
+     border: 2px solid #C3C3C3;
+}
+.steve_block img{
+     width: 100%;
+     border: 15px solid whitesmoke;
+}
+
+.effect
+{
+  position: relative;
+}
+.effect:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  right: 10px;
+  left: auto;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 25px 10px #777;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(6deg);
+}
+
+.reklama_block{
+     float: right;
+     width: 30%;
+}
+.inner_reklama_block{
+     float: left;
+     width: 48%;
+     height: 48%;
+     margin: 0 2% 2% 0;
+     border: 2px solid #C3C3C3;
+}
+.reklama{
+     border: 15px solid #DFDFDF;
+     background-image: radial-gradient(at center,#48015F,#21032B);
+     height: 100%;
+     width: 100%;
+}
+
+.reklama p{
+     color: aliceblue;
+     font: bold 22px Arial;
+     text-align: center;
+     margin-top: 40%;
+}
+.inner_reklama_block:last-child{
+          margin-right: 0;
+          margin-left: 2%;
+          margin-top: 2%;
+     }
+     
+.inner_reklama_block:first-child+.inner_reklama_block{
+     margin-right: 0;
+     margin-left: 2%;
+}
+#reklama_3{
+     margin-right: 2%;
+     margin-top: 2%;
+}
+
+
+
+     /*=====================Табы и html новости===============================*/
+
+.content2{
+     width: 90%;
+     margin: 0 auto 50px auto;
+     padding: 25px;
+     display: table;
+     
+}
+.left_content{
+     width: 65%;
+     float: left;
+}
+.right_content{
+     width: 30%;
+     float: right;
+}
+/*Табы*/
+
+.tabs_div{
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     float: right;
+     position: relative;
+     top: -110px;
+     height: 590px;
+     
+}
+.tabs_child_div{
+     border: 2px solid #C3C3C3 !important;
+}
+.tabs_inner_border{
+     border: 15px solid #DFDFDF;
+}
+.tabs_inner_border_child{
+     border: 2px solid #C3C3C3;
+}
+.tabs_ul{
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 40px;
+     
+}
+.tabs_ul li{
+     list-style: none;
+     background-image: linear-gradient(0deg,#D5D3D6,#FBFAFC);
+     float: left;
+     width: 33.3333333333333333333333333333333333333333333333333333333%;
+     height: 100%;
+     padding: 10px;
+     
+}
+.tabs_ul li:first-child{
+     border-right: 2px solid #C3C3C3;
+     border-bottom: 2px solid #C3C3C3;
+}
+.tabs_ul li:first-child+li{
+     border-bottom: 2px solid #C3C3C3;
+}
+.tabs_ul li:last-child{
+     border-bottom: 2px solid #C3C3C3;
+     border-left: 2px solid #C3C3C3;
+}
+.tabs_container{
+     padding: 20px 20px 40px 20px;
+     
+}
+.tabs_ul li a{
+     color: black;
+     font: bold 130% Arial;
+}
+.tabs_ul li a:hover{
+     text-decoration: none;
+}
+.tabs_ul li:hover{
+     background-image: linear-gradient(0deg,#C0BFC1,#E3E1E4);
+}
+.activeted_li{
+     background: white !important;
+     border-bottom: 1px solid white !important;
+}
+.tabs_content_ul{
+     margin: 0;
+     padding: 0;
+     
+}
+.tabs_content_ul li{
+     margin: 15px 0 0 0 ;
+     padding: 0 0 10px 0;
+     list-style: none;
+     font-size: 20px;
+     border-bottom: 2px solid #DFDFDF;
+     
+}
+.tabs_content_ul li i{
+     border: 2px solid #DFDFDF; 
+     padding: 5px;
+     margin-right: 10px;
+     font-size: 65px;
+     float: left;
+     position: relative;
+     top: 5px;
+     color: #A0C400;
+}
+
+
+
+/*html css news*/
+.news_html{
+     width: 100%;
+     border: 2px solid #C3C3C3;
+     padding: 15px;
+     float: left;
+     margin-bottom: 30px;
+     margin-top: 50px;
+}
+.block_img_and_text{
+     width: 100%;
+     display: table;
+     margin-bottom: 30px;
+}
+.text_about_html{
+     float: right;
+     height: 100%;
+     width: 70%;
+     margin-left: 20px;
+}
+#first_text{
+     font: 45px Arial;
+     
+}
+#second_text{
+     font:italic 18px Verdana;
+     margin-top: 20px;
+     color: gray;
+}
+#second_text strong{
+     text-decoration: underline;
+     cursor: pointer;
+}
+#third_text{
+     font: 20px Verdana;
+     color: black;
+}
+.img_html{
+     width: 25%;
+     border: 2px solid #C3C3C3;
+     margin-bottom: 15px;
+     float: left;
+}
+.inner_img_html{
+     width: 100%;
+     height: 100%;
+     border: 15px solid white;
+     background-image: radial-gradient(at center ,#AFD81C,#89A816);
+     
+}
+.inner_img_css{
+     width: 100%;
+     height: 100%;
+     border: 15px solid white;
+     background-image: radial-gradient(at center ,#004562,#00264A);
+}
+.inner_img_css p{
+     font-size: 70px;
+     text-align: center;
+     margin-top: 26%;
+     color: white;
+}
+.inner_img_html p{
+     font-size: 70px;
+     text-align: center;
+     margin-top: 26%;
+     color: white;
+     
+}
+.share_and_read_button{
+     width: 100%;
+     clear: both;
+     display: table;
+     padding: 0 25px 0 0;
+}
+.share_button{
+     float: left;
+     margin-right: 2%;
+     height: 29px;
+     color: white;
+     font-size: 15px;
+     border: 1px solid black;
+}
+
+.share_button:hover{
+     box-shadow: 0 0 10px 1px black;
+}
+.read_more_button{
+     float: right;
+     border: 1px solid gray;
+     height: 40px;
+     font: italic 20px Arial;
+     color: gray;
+     background-image: linear-gradient(0deg,#BEBEBE,#EDEDED);
+     position: relative;
+     top: -10px;
+}
+.read_more_button:hover{
+     background-image: linear-gradient(0deg,#E1E1E1,#EDEDED);
+}
+.read_more_button:focus{
+     background-image: linear-gradient(0deg,#E1E1E1,#BEBEBE);
+}
+.share_button i{
+     margin-right: 5px;
+}
+.share_button:first-child{
+     background-image: linear-gradient(0deg,#2C4171,#6492FF);
+}
+.share_button:first-child+.share_button{
+     background-image: linear-gradient(0deg,#3996AE,#53DAFC);
+}
+
+.page_news{
+     clear: both;
+     margin-bottom: 30px;
+}
+
+.page_news ul li{
+     list-style: none;
+     display: inline-block;
+     height: 35px;
+     width: 35px;
+     text-align: center;
+     padding-top: 0.5%;
+     background-image: linear-gradient(0deg,#BEBEBE,#EDEDED);
+     border: 1px solid gray;
+     font: bold 15px Arial;
+}
+.page_news ul li:hover{
+     background-image: linear-gradient(0deg,#E1E1E1,#EDEDED);
+     box-shadow: 0 0 5px 1px #00BFFF;
+}
+/*Нижняя реклама*/
+
+.reklama_bottom{
+     text-align: center;
+     font: bold 80px Arial;
+     margin-top: 30px;
+     background-image: radial-gradient(at center,#FF4141,#A52A2A);
+     position: relative;
+     
+}
+
+
+/*================Footer=================*/
+.footer{
+     width: 100%;
+     height: auto;
+     background-image: linear-gradient(0deg,dimgray,#E4E4E4);
+     padding: 20px 200px 0 5%;
+     font: 500 20px Arial;
+     border-top: 1px solid white;
+     display: table;
+     box-shadow: 0 0 20px 1px;
+}
+.footer h1{
+     margin: 10px 0 50px 0;
+     font: 500 40px Arial;
+}
+.first_text_of_footer{
+     float: left;
+     width: 30%;
+}
+.first_text_of_footer ul li{
+     
+     
+}
+.second_text_of_footer{
+     float: left;
+     width: 30%;
+     margin: 0 5%;
+}
+.third_text_of_footer{
+     float: right;
+     width: 30%;
+     font-size: 25px;
+     
+}
+.footer ul li{
+     border-bottom: 2px solid black;
+     padding-bottom: 30px;
+     margin-bottom: 30px;
+     list-style: none;
+}
+.footer ul li i{
+     color: orangered;
+     font-size: 65px;
+     float: left;
+     margin-right: 20px;
+}
+.footer ul li span{
+     color: white;
+}
+.footer ul{
+     margin: 0;
+     padding: 0;
+}
+#bottom_logo{
+     margin: 0;
+     padding: 0;
+}
+footer{
+     background-color: #4A4A4A;
+     height: 25px;
+     width: 100%;
+     display: table;
+     color: aliceblue;
+     font: 100 18px Tahoma;
+     padding-left: 5%;
+}
+.footer .logo{
+     margin: 0;
+     padding: 0;
+     
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>iRadio</title>
+     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Oswald:300,400" rel="stylesheet">
+     <link rel="stylesheet" href="css/font-awesome.css">
+     <link rel="stylesheet" href="css/animate.css">
+     <link href="css/style.css" rel="stylesheet">
+     <link href="css/adaptive.css" rel="stylesheet">
+     <style media="screen">
+		#load-progres{
+			height: 100%;
+			width: 100%;
+			position: fixed;
+			left: 0;
+			top: 0;
+			z-index: 1000;
+			background-color: white;
+		}
+	</style>
+	<script>
+			function allLoaded(){
+					jQuery('#load-progres').fadeOut(1000);
+			}
+	</script>
+</head>
+<body onload="allLoaded()">
+    <div id="load-progres"></div>
+     <div class="page-wraper">
+          <div class="nav-block">
+               <div class="top-menu">
+                    <div class="logo animated infinite shake">iRadio</div>
+                    <i class="fa fa-bars fa-lg burger"></i>
+                    <ul id="nav-menu">
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="#galery-radio">Music</a></li>
+                              <li><a href="#news-block">News</a></li>
+                              <li><a href="#about-us">About</a></li>
+                              <li><a href="#social-icon">Contact</a></li>
+                         </ul>
+                    
+               </div>
+               
+               <div class="radio-block" id="radio-block">
+                    <p>Want gian and go to nirvana ?</p>
+                    <audio src="css/audio.mp3" id="song" loop></audio>
+                    <button class="play">
+                    <i class="fa fa-play-circle-o">
+                    </i>
+                    Click Me
+                    </button>
+                    <button class="pause">
+                    <i class="fa fa-play-circle-o">
+                    </i>
+                    Click Me
+                    </button>
+               </div>
+               
+          </div>
+          
+          <div id="galery-radio" class="galery-radio">
+              <h1>Choose the radio at your taste!</h1>
+               <div class="block-radio">
+                    <div class="bg-radio1 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>Rock</p>
+               </div>
+               <div class="block-radio">
+                    <div class="bg-radio2 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>Rap</p>
+               </div>
+               <div class="block-radio">
+                    <div class="bg-radio3 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>HipHop</p>
+               </div>
+               <div class="block-radio">
+                    <div class="bg-radio4 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>Raggy</p>
+               </div>
+               <div class="block-radio">
+                    <div class="bg-radio5 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>Disco 80th</p>
+               </div>
+               <div class="block-radio">
+                    <div class="bg-radio6 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>Progressive</p>
+               </div>
+               <div class="block-radio">
+                    <div class="bg-radio7 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>Indie Rock</p>
+               </div>
+               <div class="block-radio">
+                    <div class="bg-radio8 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>Techno</p>
+               </div>
+               <div class="block-radio">
+                    <div class="bg-radio9 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>Dub Step</p>
+               </div>
+               <div class="block-radio">
+                    <div class="bg-radio10 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>Drum&amp;Bass</p>
+               </div>
+               <div class="block-radio">
+                    <div class="bg-radio11 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>Classic</p>
+               </div>
+               <div class="block-radio">
+                    <div class="bg-radio12 height-radio">
+                         <div class="radio"><img src="img/listen_img.png" alt=""></div>
+                    </div>
+                    <p>Pop</p>
+               </div>
+          </div>
+          
+          <div id="news-block" class="news-block">
+               <h1>News of music:</h1>
+     
+               <ul class="top-page-news-container">
+               	<li class="top-page-news page-news active-page">1</li>
+               	<li class="top-page-news page-news">2</li>
+               	<li class="top-page-news page-news">3</li>
+               	<li class="top-page-news page-news">4</li>
+               	<li class="top-page-news page-news">5</li>
+               </ul>
+               
+               <div id="news-container0" class="news-container">
+                    <div class="news">
+                         <img src="img/Ricky.png" alt="">
+                         <h2>Ricky Martin decided to create a new album of hard rock style.</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem libero tempore, dolore eum corporis reprehenderit sunt illo earum, delectus error ipsam voluptas, possimus unde explicabo! Cum alias veritatis sunt veniam.</p>
+                         <button>Read more...</button>
+                    </div>
+                    <div class="news">
+                         <img src="img/Armin.png" alt="">
+                         <h2>Armin van Buuren and Tiesto  will integrate to create a new joint album.</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus provident sed aspernatur vitae, labore fuga illum impedit vel dicta sunt quo totam culpa libero laborum maxime deleniti placeat, eaque.</p>
+                         <button>Read more...</button>
+                    </div>
+                    <div class="news">
+                         <img src="img/Elvis.png" alt="">
+                         <h2>While little known singer from Nebraska, said he wants to become the new Elvis Presley</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut a dolor quas autem. Esse quisquam molestiae, recusandae natus fuga, quae tenetur dolore praesentium repellendus aliquam porro ab iure optio, nisi?</p>
+                         <button>Read more...</button>
+                    </div>
+               </div>
+               
+               <div id="news-container1" class="news-container">
+                    <div class="news">
+                         <img src="img/Ricky.png" alt="">
+                         <h2>Ricky Martin decided to create a new album of hard rock style.</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem libero tempore, dolore eum corporis reprehenderit sunt illo earum, delectus error ipsam voluptas, possimus unde explicabo! Cum alias veritatis sunt veniam.</p>
+                         <button>Read more...</button>
+                    </div>
+                    <div class="news">
+                         <img src="img/Ricky.png" alt="">
+                         <h2>Armin van Buuren and Tiesto  will integrate to create a new joint album.</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus provident sed aspernatur vitae, labore fuga illum impedit vel dicta sunt quo totam culpa libero laborum maxime deleniti placeat, eaque.</p>
+                         <button>Read more...</button>
+                    </div>
+                    <div class="news">
+                         <img src="img/Ricky.png" alt="">
+                         <h2>While little known singer from Nebraska, said he wants to become the new Elvis Presley</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut a dolor quas autem. Esse quisquam molestiae, recusandae natus fuga, quae tenetur dolore praesentium repellendus aliquam porro ab iure optio, nisi?</p>
+                         <button>Read more...</button>
+                    </div>
+               </div>
+               
+               <div id="news-container2" class="news-container">
+                    <div class="news">
+                         <img src="img/Elvis.png" alt="">
+                         <h2>Ricky Martin decided to create a new album of hard rock style.</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem libero tempore, dolore eum corporis reprehenderit sunt illo earum, delectus error ipsam voluptas, possimus unde explicabo! Cum alias veritatis sunt veniam.</p>
+                         <button>Read more...</button>
+                    </div>
+                    <div class="news">
+                         <img src="img/Elvis.png" alt="">
+                         <h2>Armin van Buuren and Tiesto  will integrate to create a new joint album.</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus provident sed aspernatur vitae, labore fuga illum impedit vel dicta sunt quo totam culpa libero laborum maxime deleniti placeat, eaque.</p>
+                         <button>Read more...</button>
+                    </div>
+                    <div class="news">
+                         <img src="img/Elvis.png" alt="">
+                         <h2>While little known singer from Nebraska, said he wants to become the new Elvis Presley</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut a dolor quas autem. Esse quisquam molestiae, recusandae natus fuga, quae tenetur dolore praesentium repellendus aliquam porro ab iure optio, nisi?</p>
+                         <button>Read more...</button>
+                    </div>
+               </div>
+               
+               <div id="news-container3" class="news-container">
+                    <div class="news">
+                         <img src="img/Armin.png" alt="">
+                         <h2>Ricky Martin decided to create a new album of hard rock style.</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem libero tempore, dolore eum corporis reprehenderit sunt illo earum, delectus error ipsam voluptas, possimus unde explicabo! Cum alias veritatis sunt veniam.</p>
+                         <button>Read more...</button>
+                    </div>
+                    <div class="news">
+                         <img src="img/Armin.png" alt="">
+                         <h2>Armin van Buuren and Tiesto  will integrate to create a new joint album.</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus provident sed aspernatur vitae, labore fuga illum impedit vel dicta sunt quo totam culpa libero laborum maxime deleniti placeat, eaque.</p>
+                         <button>Read more...</button>
+                    </div>
+                    <div class="news">
+                         <img src="img/Armin.png" alt="">
+                         <h2>While little known singer from Nebraska, said he wants to become the new Elvis Presley</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut a dolor quas autem. Esse quisquam molestiae, recusandae natus fuga, quae tenetur dolore praesentium repellendus aliquam porro ab iure optio, nisi?</p>
+                         <button>Read more...</button>
+                    </div>
+               </div>
+               
+               <div id="news-container4" class="news-container">
+                    <div class="news">
+                         <img src="img/Raggy.png" alt="">
+                         <h2>Ricky Martin decided to create a new album of hard rock style.</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem libero tempore, dolore eum corporis reprehenderit sunt illo earum, delectus error ipsam voluptas, possimus unde explicabo! Cum alias veritatis sunt veniam.</p>
+                         <button>Read more...</button>
+                    </div>
+                    <div class="news">
+                         <img src="img/Raggy.png" alt="">
+                         <h2>Armin van Buuren and Tiesto  will integrate to create a new joint album.</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus provident sed aspernatur vitae, labore fuga illum impedit vel dicta sunt quo totam culpa libero laborum maxime deleniti placeat, eaque.</p>
+                         <button>Read more...</button>
+                    </div>
+                    <div class="news">
+                         <img src="img/Raggy.png" alt="">
+                         <h2>While little known singer from Nebraska, said he wants to become the new Elvis Presley</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut a dolor quas autem. Esse quisquam molestiae, recusandae natus fuga, quae tenetur dolore praesentium repellendus aliquam porro ab iure optio, nisi?</p>
+                         <button>Read more...</button>
+                    </div>
+               </div>
+               
+               <ul class="bottom-page-news-container">
+               	<li class="bottom-page-news page-news active-page">1</li>
+               	<li class="bottom-page-news page-news">2</li>
+               	<li class="bottom-page-news page-news">3</li>
+               	<li class="bottom-page-news page-news">4</li>
+               	<li class="bottom-page-news page-news">5</li>
+               </ul>
+               
+          </div>
+          
+          <div class="footer" id="footer">
+            <div id="about-us" class="about_us">
+                <h1>About Us</h1>
+                <p>We are a super radio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt reprehenderit, beatae ipsa, impedit, maiores fuga architecto unde amet hic veniam dolores nihil, voluptate fugiat autem commodi similique totam rem. Voluptate
+                    fuga officiis eligendi, deserunt similique, quae ratione voluptatum voluptas eos a vel enim commodi illum dolores ea quam, consequatur. Atque?</p>
+            </div>
+            <div class="partners">
+                <h1>Our Partners</h1>
+                <img src="img/starbuckscopy.png" alt="starbucks">
+                <img src="img/redbul.png" alt="redbul">
+                <img src="img/belize.png" alt="Belize">
+                <img src="img/kiss.png" alt="Kiss">
+                <img src="img/Creative.png" alt="Creative">
+                <img src="img/LeEco.png" alt="LeEco">
+                <img src="img/ibm.png" alt="IBM">
+                <img src="img/1+1.png" alt="1+1">
+                <img src="img/mega.png" alt="Mega">
+            </div>
+            <div class="footer_info">
+                <p>&copy;2000-2016</p>
+                <div id="social-icon" class="footer_social_icon">
+                    <i id="fb" class="fa fa-facebook "></i>
+                    <i id="tw" class="fa fa-twitter"></i>
+                    <i id="vk" class="fa fa-vk"></i>
+                    <i id="gp" class="fa fa-google-plus"></i>
+                    <i id="yt" class="fa fa-youtube-play "></i>
+                    <i id="th" class="fa fa-twitch "></i>
+                </div>
+            </div>
+        </div>
+     </div>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     <script src="js/jquery-3.1.1.min.js"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>

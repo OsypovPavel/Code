@@ -1,0 +1,406 @@
+body, html, .row{
+    margin: 0;
+    padding: 0;
+    min-width: 240px;
+    background-color: rgb(250,250,250);
+}
+
+/*===========================HEADER================================*/
+.header{
+    padding: 5px 0;
+}
+.logo img{
+    height: 110px;
+    transition: 0.5s linear;
+    margin-bottom: 10px;
+}
+.logo{
+    text-align: center;
+}
+.call-us, .list-menu{
+    padding-right: 100px;
+    box-sizing: border-box;
+    text-align: right;
+    transition: 0.5s linear;
+}
+.call-us p{
+    font: bold 30px Comfortaa;
+    padding-top: 15px;
+    color: #222222;
+}
+.call-us p span{
+    padding-left: 35px;
+}
+.list-menu ul li{
+    display: inline;
+    font: bold 25px Comfortaa;
+    padding-bottom: 5px;
+}
+.list-menu ul li a{
+    color: #222222;
+    text-decoration: none;
+}
+.list-menu ul{
+    padding-top: 20px;
+}
+#price{
+    margin: 0 50px;
+}
+.list-menu ul li:hover{
+    border-bottom: 3px solid #222222;
+    transition: 0.2s linear;
+}
+.burger{
+    display: none;
+    padding-top: 10px;
+    
+}
+.burger i{
+    transition: 0.5s linear;
+}
+.burger i:hover{
+    transform: scale(1.2);
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+/*======================FORM SLIDER=============================*/
+.form-slider{
+    position: relative;
+    -webkit-box-shadow: 0px 6px 26px 0px rgba(50, 50, 50, 1);
+    -moz-box-shadow:    0px 6px 26px 0px rgba(50, 50, 50, 1);
+    box-shadow:         0px 6px 26px 0px rgba(50, 50, 50, 1);
+}
+.form{
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    padding: 15px 0;
+    text-align: center;
+}
+.form span{
+    font: bold 35px Comfortaa;
+    color: white;
+    padding-right: 35px;
+}
+.form input{
+    height: 40px;
+    position: relative;
+    bottom: 4px;
+    font: bold 22px Roboto;
+    padding: 0 10px;
+    border: 1px solid #222222;
+    border-radius: 3px;
+    background-image: linear-gradient(180deg,white,lightgray);
+}
+.form input:focus{
+    box-shadow: 1px 1px 15px 1px skyblue;
+}
+.form button{
+    background-color: #8DAF31;
+    height: 40px;
+    position: relative;
+    bottom: 4px;
+    font: bold 22px Roboto;
+    padding: 0 10px;
+    border: 1px solid #222222;
+    border-radius: 3px;
+    color: white;
+    transition: 0.3s linear;
+    outline: none;
+}
+.form button:hover{
+    background-color: #A0C637;
+    transition: 0.3s linear;
+}
+.form button:active{
+    box-shadow: 0 0 25px 1px gray inset;
+    transition: 0.1s linear;
+    border: 1px solid white;
+}
+#number-input{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.slider div img{
+    width: 100%;
+}
+/*============================OFFERS==============================*/
+.offer-block h1{
+    text-align: center;
+    font: bold 55px Roboto;
+    color: #A6CE39;
+    padding: 0 15px 15px 15px;
+}
+.offer-block div:first-child{
+    position: relative;
+}
+.offer-block{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.apartament{
+    width: 50%;
+    background-image: url(../img/office.jpg);
+    float: left;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+}
+.apartament a span{
+    text-shadow: 0px 0px 50px rgba(0,0,0, 1);
+    font: bold 45px Comfortaa;
+    text-align: center;
+    transition: 0.5s linear;
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+.offer-block span{
+    text-shadow: 0px 0px 50px rgba(0,0,0, 1);
+    font: bold 25px Comfortaa;
+    text-align: center;
+    transition: 0.5s linear;
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    width: 100%;
+    padding: 0 15px;
+}
+.hover-block{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s linear;
+}
+.hover-block:hover{
+    transition: 0.4s linear;
+    background-color: rgba(0,0,0,0.5);
+}
+.mega{
+    width: 40%;
+    float: left;
+    background-image: url(../img/mega.jpg);
+    background-position: top;
+    background-size: cover;
+    cursor: pointer;
+}
+.clining{
+    background-image: url(../img/cleaning.jpg);
+    background-size: cover;
+}
+.delivery{
+    background-image: url(../img/delivery.jpg);
+    background-size: cover;
+}
+.storage{
+    background-image: url(../img/storage.jpg);
+    background-size: cover;
+}
+.clining, .delivery, .piano, .storage{
+    width: 25%;
+    float: left;
+    cursor: pointer;
+    background-position: center;
+}
+.piano{
+    background-image: url(../img/piano.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.boxes{
+    width: 60%;
+    float: left;
+    background-image: url(../img/boxes.png);
+    background-size: cover;
+    cursor: pointer;
+}
+/*===========================Comment=============================*/
+.comment-block{
+    width: 100%;
+    clear: both;
+    background-image: url(../img/comment.jpg);
+    background-position: top;
+    background-size: cover;
+    border-top: 2px solid white;
+}
+.bg-comment{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: rgba(155,192,53,0.8);
+}
+.slider-comment{
+    max-width: 768px;
+    width: 50%;
+    margin: auto;
+    color: #222222;
+    font-family: Comfortaa;
+}
+#comment-logo{
+    max-width: 768px;
+    width: 50%;
+    color: white;
+    margin: auto;
+    font: 700 20px Comfortaa;
+    padding-bottom: 30px;
+}
+#comment-logo i{
+    font-size: 50px;
+    padding-right: 30px;
+}
+.comment p:first-child{
+    font-size: 30px;
+    transition: 0.5s linear;
+    font-weight: 900;
+    color: black;
+}
+.comment p:last-child{
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.slick-prev{
+    z-index: 1;
+    left: -15%
+}
+.slick-next{
+    right: -15%;
+}
+.slick-prev.slick-arrow:before{
+    content: '⟨';
+    left: 0;
+}
+.slick-next.slick-arrow:before{
+    left: 13px;
+}
+.slick-arrow{
+    background-color: transparent;
+    height: 50px;
+    width: 50px; 
+    transition: .3s linear;
+}
+.slick-arrow:hover{
+    background-color: transparent;
+    transition: .3s linear;
+}
+.slick-prev:focus,.slick-next:focus{
+    background-color: transparent;
+}
+.slick-arrow:before{
+    color: white;
+    content: '⟩';
+    font: 700 45px Tahoma;
+    position: relative;
+    top: -10px;
+    left: 2px;
+}
+
+/*===========================FOOTER===============================*/
+.footer{
+    clear: both;
+    background-color: #222222;
+}
+.footer-form{
+    text-align: center;
+    padding: 30px 15px;
+    background-color: rgba(0,0,139,0.2);
+    border-top: 3px solid white;
+}
+.footer-form span{
+    font: bold 35px Comfortaa;
+    color: white;
+    padding-right: 35px;
+}
+.footer-form input{
+    height: 40px;
+    position: relative;
+    bottom: 4px;
+    font: bold 22px Roboto;
+    padding: 0 10px;
+    border: 1px solid #222222;
+    border-radius: 3px;
+    background-image: linear-gradient(180deg,white,lightgray);
+}
+.footer-form input:focus{
+    box-shadow: 1px 1px 15px 1px skyblue;
+}
+.footer-form button{
+    background-color: #8DAF31;
+    height: 40px;
+    position: relative;
+    bottom: 4px;
+    font: bold 22px Roboto;
+    padding: 0 10px;
+    border: 1px solid #222222;
+    border-radius: 3px;
+    color: white;
+    transition: 0.3s linear;
+    outline: none;
+}
+.footer-form button:hover{
+    background-color: #A0C637;
+    transition: 0.3s linear;
+}
+.footer-form button:active{
+    box-shadow: 0 0 25px 1px gray inset;
+    transition: 0.1s linear;
+    border: 1px solid white;
+}
+#number-input{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer-bottom{
+    width: 100%;
+    background-color: black;
+    display: table;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.footer-bottom p{
+    color: white;
+    margin: 0;
+    padding: 10px;
+    font: 500 14px Comfortaa;
+}
+.footer-bottom p:first-child{
+    float: left;
+}
+.footer-bottom p:last-child{
+    float: right;
+}
+.social a{
+    text-decoration: none;
+    color: dimgray;
+    padding: 20px 0;
+    text-align: center;
+}
+.social a:hover{
+    color: white;
+    transition: 0.3s linear;
+}
+
+.fa1:hover{
+    background-color: rgb(72,103,170);
+}
+.fa2:hover{
+    background-color: rgb(80,114,153);
+}
+.fa3:hover{
+    background-color: rgb(65,171,225);
+}
+.fa4:hover{
+    background-color: rgb(211,155,12);
+}
+.fa5:hover{
+    background-color: rgb(1,174,242);
+}
+.fa6:hover{
+    background-color: rgb(230,33,23);
+}
+.social i{
+    font-size: 50px;
+}
+
+
+

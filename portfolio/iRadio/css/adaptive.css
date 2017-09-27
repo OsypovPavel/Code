@@ -1,0 +1,158 @@
+@media (max-width:1200px){
+	.top-page-news-container{
+		padding-left: 50px;
+		-webkit-transition: .5s;
+		transition: .5s;
+	}
+}
+
+
+
+@media (max-width:1080px){
+	.news{
+		width: 90%;
+		-webkit-transform: scale(1.01);transform: scale(1.01);
+	}
+	.news button{
+		margin-top: 20px;
+	}
+	.news img{
+		margin: 8px 15px 10px 0;
+	}
+}
+
+
+
+@media (max-width:900px){
+     .radio-block{
+          margin-top: 50px;
+          -webkit-transition: 1s;
+          transition: 1s;
+     }
+     .nav-block{
+          height: 400px;
+          -webkit-transition: 1s;
+          transition: 1s;
+     }
+}
+@media (max-width:700px){
+	.news p{
+		display: none;
+	}
+	.news{
+		position: relative;
+	}
+	.news button{
+		position: absolute;
+		bottom: 20px;
+		right: 30px;
+	}
+	
+	.about_us{
+		width: 100%;
+		margin: 0;
+		padding: 0 20px;
+		box-sizing: border-box;
+		border-bottom: 5px dashed white;
+	}
+	.partners{
+		float: none;
+		clear: both;
+		width: 100%;
+		margin: 0;
+		padding: 20px;
+		box-sizing: border-box;
+	}
+}
+	
+	
+	
+@media (max-width:600px){
+     .radio-block{
+          margin-top: 0;
+     }
+     .nav-block{
+          height: 300px;
+     }
+	.footer_info {
+		padding: 10px;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
+		font-size: 14px;
+	}
+}
+@media (max-width:550px){
+	.news img{
+		height: 80px;
+	}
+	.news h2{
+		font-size: 1.2em;
+	}
+	.news button{
+		position: static;
+	}
+	news img{
+		margin-bottom: 0;
+	}
+}
+	
+	
+	
+@media (max-width:400px){
+     .radio-block{
+          margin-top: -30px;
+     }
+     .nav-block{
+          height: 300px;
+     }
+     .radio-block p{
+          font-size: 0.8em;
+     }
+}
+@media (max-width:340px){
+     .block-radio{
+     width: 100%;
+     margin: 2% 0;
+     border: 3px solid black;
+     box-sizing: border-box;
+}
+	.footer_social_icon i{
+		margin: 0 3px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:690px){
+     .top-menu i{
+     display: block;
+     }
+     .top-menu ul{
+     display: none;
+     margin-top: 60px;
+     float: none;
+     clear: both;
+     padding: 0;
+     }
+     .top-menu ul li{
+          font-size: 1.2em;
+          margin-top: 
+     }
+     .top-menu{
+          transition: 1s;
+          padding: 20px 25px;
+     }
+}
+@media (max-width:462px){
+     .top-menu ul li{
+          margin-right: 10px;
+          transition: .3s;
+     }
+}

@@ -1,0 +1,211 @@
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    min-width: 330px;
+    margin: auto;
+    text-align: center;
+}
+/*================================HEADER=========================================*/
+header h1{
+    margin-bottom: 25px;
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+}
+header{
+    margin-bottom: 25px;
+    padding-top: 50px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: lightgrey;
+    font: 500 18px Roboto;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s linear;
+}
+nav ul li a:hover{
+    color: black;
+    transition: 0.3s linear;
+}
+.active{
+    color: black;
+}
+/*================================MAIN=========================================*/
+main{
+    width: 100%;
+    position: relative;
+}
+.home{
+    width: 100%;
+    display: table;
+}
+.home img{
+    width: 100%;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+.home h1{
+    margin-bottom: 25px;
+    font: bold  20px Roboto;
+}
+/*---------------------------------Home---------------------------------------*/
+.fourBlock{
+    width: 77%;
+    float: left;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.movingBlock{
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.intersono,.radio{
+    width: 50%;
+    float: left;
+}
+.intersono,.landing{
+    padding-right: 7.5px;
+    box-sizing: border-box;
+}
+.radio,.steve{
+    padding-left: 7.5px;
+    box-sizing: border-box;
+}
+.longBlock{
+    width: 23%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.bottomBlock{
+    clear: both;
+    width: 100%;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.bottomBlock div{
+    width: 50%;
+    float: left;
+}
+
+/*---------------------------------About---------------------------------------*/
+
+.about{
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+    margin-top: 50px;
+}
+.about img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.about h2{
+    font-family: Roboto;
+    margin-bottom: 25px;
+}
+.about p{
+    width: 100%;
+    font: 18px Roboto;
+    word-spacing: 1px;
+}
+
+/*---------------------------------Get In---------------------------------------*/
+
+.getIn{
+    width: 100%;
+    margin: auto;
+    max-width: 500px;  
+    margin-top: 50px;
+}
+.getIn img{
+    margin-bottom: 55px;
+}
+.getIn h2{
+    font-family: Roboto;
+    margin-bottom: 25px;
+}
+.getIn p{
+    font: 16px Roboto;
+    word-spacing: 1px;
+    margin-bottom: 10px;
+}
+.getIn p:last-child{
+    margin: 0;
+}
+.getIn p br{
+    display: none;
+}
+.getIn p span{
+    font-size: 25px;
+}
+.getIn form {
+    width: 100%;
+    overflow: hidden
+}
+.getIn form input,.getIn form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #F4F3F2;
+    outline: none;
+    padding: 10px 0 10px 15px;
+    box-sizing: border-box;
+    font: bold 18px Roboto;
+}
+.getIn form input[type="text"]{
+    text-transform: capitalize;
+}
+.getIn form input[type="submit"]{
+    background-color: greenyellow;
+    transition: .5s linear;
+}
+.getIn form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: limegreen;
+    transition: .5s linear;
+}
+.getIn .fa{
+    font-size: 20px;
+}
+.fa-envelope-square{
+    color: #E70000;
+}
+.fa-phone-square{
+    color: #00B200;
+}
+.fa-skype{
+    color: deepskyblue;
+}
+
+/*================================FOOTER=========================================*/
+
+footer{
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer p{
+    font: bold 15px Roboto;
+}
+.fa{
+    font-size: 30px;
+    margin-bottom: 5px;
+    transition: .1s linear;
+}
+a{
+    color: black;
+}
+footer a i:hover{
+    transform: scale(1.1);
+    color: dodgerblue;
+    transition: .1s linear;
+}
+
+
+

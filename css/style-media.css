@@ -1,0 +1,46 @@
+@media (max-width:1000px){
+    main{
+        width: 90%;
+        margin: auto;
+    }
+    .longBlock,.fourBlock{
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 15px;
+    }
+    
+}
+@media (max-width:768px){
+    .fourBlock{
+        padding-bottom: 8px;
+    }
+    .longBlock,.movingBlock{
+        padding-bottom: 0;
+    }
+    .intersono,.landing{
+    padding-right: 4px;
+    }
+    .radio,.steve{
+    padding-left: 4px;
+    }
+    
+}
+@media (max-width:440px){
+    .getIn p br{
+        display: block;
+    }
+    .fa-phone-square{
+        margin-top: 10px;
+    }
+    .getIn p span{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
